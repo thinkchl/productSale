@@ -1,0 +1,163 @@
+{
+  "getBoardList":[
+          {
+            "img":"require('../assets/images/1.png')",
+            "title":"开放产品",
+            "desc":"开放产品是一款开放产品"
+          },
+          {
+            "img":"require('../assets/images/1.png')",
+            "title":"品牌营销",
+            "desc":"品牌营销帮助你的产品更好的找到定位"
+          },
+          {
+            "img":"require('../assets/images/1.png')",
+            "title":"使命必达",
+            "desc":"使命必达快速迭代永远保持最前端的速度"
+          },
+          {
+            "img":"require('../assets/images/1.png')",
+            "title":"勇攀高峰",
+            "desc":"帮你勇闯高峰，到达事业的顶峰"
+          }
+        ],
+  "getProducts":[
+          {
+            "name":"PC产品",
+            "data":[
+              {
+                "name":"数据统计",
+                "link": "http://weixin.com",
+                "hot":0
+              },
+              {
+                "name":"数据预测",
+                "link": "http://twitter.com",
+                "hot":0
+              },
+              {
+                "name":"流量分析",
+                "link": "http://maps.com",
+                "hot":1
+              },
+              {
+                "name":"广告发布",
+                "link": "http://phone.com",
+                "hot":0
+              }
+            ]
+          },
+          {
+            "name":"手机应用类",
+            "data":[
+              {
+                "name":"91助手",
+                "link": "http://starcraft.com",
+                "hot":0
+              },
+              {
+                "name":"产品助手",
+                "link": "http://warcraft.com",
+                "hot":0
+              },
+              {
+                "name":"智能地图",
+                "link": "http://overwatch.com",
+                "hot":1
+              },
+              {
+                "name":"团队语音",
+                "link": "http://hearstone.com",
+                "hot":0
+              }
+              
+            ]
+          }
+        ],
+  "getSlideList":[
+        {
+          "id":1,
+          "link":"http://baidu.com",
+          "default":true
+        },
+        {
+          "id":2,
+          "link":"http://qq.com"
+        },
+        {
+          "id":3,
+          "link":"http://oracle.com"
+        },
+        {
+          "id":4,
+          "link":"http://linux.com"
+        }
+      ],
+  "getNewsList": [
+    {
+      "id": 1,
+      "img":"require('../assets/slideShow/pic1.jpg')",
+      "name": "新闻条目1",
+      "link": "http://starcraft.com"
+    },
+    {
+      "id": 2,
+      "img":"require('../assets/slideShow/pic2.jpg')",
+      "name": "新闻条目2",
+      "link": "http://warcraft.com"
+    },
+    {
+      "id": 3,
+      "img":"require('../assets/slideShow/pic3.jpg')",
+      "name": "新闻条3",
+      "link": "http://overwatch.com"
+    },
+    {
+      "id": 4,
+      "img":"require('../assets/slideShow/pic4.jpg')",
+      "name": "新闻条4",
+      "link": "http://hearstone.com"
+    }
+  ],
+  "login": {
+    "username": "yudongdong",
+    "userId": 123123
+  },
+  "getPrice": {
+    "amount": 678
+  },
+  "createOrder": {
+    "orderId": "6djk979"
+  },
+  "getOrderList": {
+    "list": [
+      {
+        "orderId": "ddj123",
+        "product": "数据统计",
+        "version": "高级版",
+        "period": "1年",
+        "buyNum": 2,
+        "date": "2016-10-10",
+        "amount": "500元"
+      },
+      {
+        "orderId": "yuj583",
+        "product": "流量分析",
+        "version": "户外版",
+        "period": "3个月",
+        "buyNum": 1,
+        "date": "2016-5-2",
+        "amount": "2200元"
+      },
+      {
+        "orderId": "pmd201",
+        "product": "广告发布",
+        "version": "商铺版",
+        "period": "3年",
+        "buyNum": 12,
+        "date": "2016-8-3",
+        "amount": "7890元"
+      }
+    ]
+  }
+}
