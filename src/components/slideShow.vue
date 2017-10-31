@@ -33,16 +33,34 @@
 	export default {
 		data () {
 			return {
-				items:[]
+				items:[
+          {
+            "id":1,
+            "link":"http://baidu.com",
+            "default":true
+          },
+          {
+            "id":2,
+            "link":"http://qq.com"
+          },
+          {
+            "id":3,
+            "link":"http://oracle.com"
+          },
+          {
+            "id":4,
+            "link":"http://linux.com"
+          }
+        ]
 			}
 		},
 		created () {
-			this.$http.get('/api/getSlideList')
-				.then( function(data)  {
-					this.$data.items = data.data.data;
-				},function(err){
+			// this.$http.get('/api/getSlideList')
+			// 	.then( function(data)  {
+			// 		this.$data.items = data.data.data;
+			// 	},function(err){
 
-				})
+			// 	})
 		},
 		mounted () {
 			$('.carousel').carousel({

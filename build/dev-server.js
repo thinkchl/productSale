@@ -63,7 +63,7 @@ apiRouters.get('/getOrderList',function(req,res){
     });
 });
 
-app.use('/api',apiRouters);//暴露接口
+app.use('/dist/api',apiRouters);//暴露接口
 
 
 var compiler = webpack(webpackConfig)
